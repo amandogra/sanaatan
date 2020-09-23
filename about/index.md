@@ -1,10 +1,11 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: About the book
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
-  order: 3
+  key: About the book
+  order: 1
+  parent: Sanaatan
 ---
 
 I am a person that writes stuff.

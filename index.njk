@@ -1,14 +1,26 @@
 ---
 layout: layouts/home.njk
-eleventyNavigation:
-  key: Home
-  order: 1
 ---
 
-<h1>Latest 3 Posts</h1>
+<h1>Introduction</h1>
+<pre>
+<code>
+को नहीं जानत है जग में कपि,
+संकटमोचन नाम तिहारो 
+</code>
+</pre>
 
-{% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
+<em>
+Ko Nahi Jaanat Hai Jag Mein Kapi,
+<br />
+Sankatmochan Naam Tiharo
+</em>
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<blockquote>
+<p>
+Who in this world doesn't know, "Your name is Sankatmochan (Problem Solver)"
+</p>
+</blockquote>
+
+<em>SankatMochan Ashtakam</em> is a 
+<a href="{{ '/posts/chapter1/' | url }}">When He Swallowed The Sun</a>
