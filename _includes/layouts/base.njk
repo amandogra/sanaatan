@@ -12,6 +12,7 @@
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
   </head>
   <body>
+    <div class="container">
     <header>
       <div class="book-title">
         <a href="/" class="book-title-link">Sankat Mochan</a>
@@ -19,6 +20,10 @@
       </div>
     </header>
     <nav>
+      <input id="toggleToC" type="checkbox"/>
+      <div class="burger-bar-1"></div>
+      <div class="burger-bar-2"></div>
+      <div class="burger-bar-3"></div>
       <ul class="toc">
         {%- for entry in collections.all | eleventyNavigation("Sankatmochan") %}
         <li class="toc-item{% if entry.url == page.url %} toc-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
@@ -26,13 +31,16 @@
       </ul>
     </nav>
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-    {{ content | safe }}
+      <div class="content">
+        {{ content | safe }}
+      </div>
     </main>
     <footer>
-      <p>&copy; 2020. Made with &#10084; by <a href="https://amandogra.com">Aman Dogra</a>.
+      <p>Made with &#10084; by <a href="https://amandogra.com">Aman Dogra</a>.
       <p>Powered by <a href="https://www.11ty.dev">Eleventy</a>.</p>
-      <p>Special thanks to <a href="http://www.typeoff.de/">Dan</a> for font <a href="https://github.com/typeoff/martel">Martel</a>.</p>
+      <p>Thanks to <a href="http://www.typeoff.de/">Dan</a> for font <a href="https://github.com/typeoff/martel">Martel</a>.</p>
     </footer>
     <!-- Current page: {{ page.url | url }} -->
+    </div>
   </body>
 </html>
