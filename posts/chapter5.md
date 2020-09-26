@@ -1,39 +1,41 @@
 ---
-title: When He Carried the God
-description: The story about the time when Hanuman brought both Ram and Laxman by carrying them on his shoulders.
-date: 2020-09-21
+title: When He Carried a Mountain
+description: The story about the time when Hanuman saved Laxman's life by bringing Sanjeevani herb.
+date: 2020-09-25
 tags:
   - hanuman
   - sankatmochan
 layout: layouts/post.njk
 cover: images/HanuCarryingRamLaxman.jpg
 eleventyNavigation:
-  key: Chapter-Two
-  title: When He Carried the God
-  order: 2
+  key: Chapter-Five
+  title: When He Carried a Mountain
+  order: 5
   parent: Sankatmochan
 ---
 ```
-बालि की त्रास कपीस बसैं गिरि,
-जात महाप्रभु पंथ निहारो I
-चौंकि महामुनि साप दियो तब,
-चाहिए कौन बिचार बिचारो I
-कैद्विज रूप लिवाय महाप्रभु,
-सो तुम दास के सोक निवारो
+बान लाग्यो उर लछिमन के तब,
+प्राण तजे सूत रावन मारो I
+लै गृह बैद्य सुषेन समेत,
+तबै गिरि द्रोण सु बीर उपारो I
+आनि सजीवन हाथ दिए तब,
+लछिमन के तुम प्रान उबारो I 
 ```
 
-_Baali Ki Traas Kapis Basey Giri,
-Jaat Mahaprabhu Panth Niharo.
-Chaunki Maha Muni Shaap Diyo Tab,
-Chahiy Kaun Bichar Bicharo.
-Kay Dwij Roop Livaya Mahaprabhu,
-So Tum Das Ke Sok Nivaro_
+_Baan Lagyo Ur Laxman Ke Tab,
+Pran Tajey Sut Ravan Maaro.
+Ley Grah Baidya Sushen Samet,
+Tabey Giri Dron Su Bir Upaaro.
+Aani Sajeevan Haath Dai Tab,
+Laxman Ke Tum Pran Ubaaro_
 
->Tortured by Baali, the King of Monkeys (Sugriv) was living in the mountains.
-???
-???
-Disguised as a brahmin, you brought the Great God (Ram),
-and so you relieved the devotee of sorrow.
+> An arrow stuck the chest of Laxman,
+Deadly (arrow) which was shot by Raavan's son (Meghnath).
+(you) brought Vaidya Sushen's house along with him,
+Then the Dron mountain, O Brave One, you brought,
+(After) fetching (when you) put Sanjeevani (herb) in (Sushen's) hand,
+you saved Laxman's life.
+
 
 ## Story
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem purus, pretium in nibh in, scelerisque posuere justo. Morbi ex ante, euismod a metus vel, aliquet porttitor quam. Mauris id sollicitudin lorem. Nulla mollis nulla et aliquam efficitur. Maecenas auctor lacus nec tortor posuere, convallis pharetra lectus lobortis. Proin sit amet mauris elit. In pellentesque molestie lectus non placerat. Ut sit amet tortor quis arcu sodales rhoncus. Ut et turpis vel nulla feugiat cursus non ut urna. Cras at ante diam. In non massa ornare, congue lorem eget, molestie velit. Sed rutrum sagittis faucibus.

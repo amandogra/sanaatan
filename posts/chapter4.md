@@ -1,39 +1,41 @@
 ---
-title: When He Carried the God
-description: The story about the time when Hanuman brought both Ram and Laxman by carrying them on his shoulders.
-date: 2020-09-21
+title: When He Gave Sita The Lord's Ring
+description: The story about the time when Hanuman jumped across the Ocean to bring the news about Devi Sita.
+date: 2020-09-25
 tags:
   - hanuman
   - sankatmochan
 layout: layouts/post.njk
 cover: images/HanuCarryingRamLaxman.jpg
 eleventyNavigation:
-  key: Chapter-Two
-  title: When He Carried the God
-  order: 2
+  key: Chapter-Four
+  title: When He Gave Sita The Lord's Ring
+  order: 4
   parent: Sankatmochan
 ---
 ```
-बालि की त्रास कपीस बसैं गिरि,
-जात महाप्रभु पंथ निहारो I
-चौंकि महामुनि साप दियो तब,
-चाहिए कौन बिचार बिचारो I
-कैद्विज रूप लिवाय महाप्रभु,
-सो तुम दास के सोक निवारो
+रावण त्रास दई सिय को सब,
+राक्षसी सों कही सोक निवारो I
+ताहि समय हनुमान महाप्रभु,
+जाए महा रजनीचर मरो I
+चाहत सीय असोक सों आगि सु,
+दै प्रभुमुद्रिका सोक निवारो I
 ```
 
-_Baali Ki Traas Kapis Basey Giri,
-Jaat Mahaprabhu Panth Niharo.
-Chaunki Maha Muni Shaap Diyo Tab,
-Chahiy Kaun Bichar Bicharo.
-Kay Dwij Roop Livaya Mahaprabhu,
-So Tum Das Ke Sok Nivaro_
+_Raavan Traas Dai Siya Ko Sab,
+Raakshashi So Kahi Sok Nivaaro.
+Taahi Samay Hanuman Mahaprabhu,
+Jaaya Maha Rajnichar Maaro.
+Chahat Siya Asok So Aagi Su,
+Dai Prabhu Mudrika Sok Nivaaro._
 
->Tortured by Baali, the King of Monkeys (Sugriv) was living in the mountains.
-???
-???
-Disguised as a brahmin, you brought the Great God (Ram),
-and so you relieved the devotee of sorrow.
+>Raavan gave misery to Siya and asked all
+Demonesses to relieve her sadness.
+At that time, O Hanuman, the great Lord,
+you went and killed many Demons.
+Siya wished for fire from Ashoka tree,
+By giving Lord's(Lord Ram) ring, you dissipated her sorrow._
+
 
 ## Story
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem purus, pretium in nibh in, scelerisque posuere justo. Morbi ex ante, euismod a metus vel, aliquet porttitor quam. Mauris id sollicitudin lorem. Nulla mollis nulla et aliquam efficitur. Maecenas auctor lacus nec tortor posuere, convallis pharetra lectus lobortis. Proin sit amet mauris elit. In pellentesque molestie lectus non placerat. Ut sit amet tortor quis arcu sodales rhoncus. Ut et turpis vel nulla feugiat cursus non ut urna. Cras at ante diam. In non massa ornare, congue lorem eget, molestie velit. Sed rutrum sagittis faucibus.

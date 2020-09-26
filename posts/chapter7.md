@@ -1,39 +1,40 @@
 ---
-title: When He Carried the God
-description: The story about the time when Hanuman brought both Ram and Laxman by carrying them on his shoulders.
-date: 2020-09-21
+title: When He Saved The God Himself
+description: The story about the time when Hanuman saved Sri Ram and his brother from Ahiraavan.
+date: 2020-09-25
 tags:
   - hanuman
   - sankatmochan
 layout: layouts/post.njk
 cover: images/HanuCarryingRamLaxman.jpg
 eleventyNavigation:
-  key: Chapter-Two
-  title: When He Carried the God
-  order: 2
+  key: Chapter-Seven
+  title: When He Saved The God Himself
+  order: 7
   parent: Sankatmochan
 ---
 ```
-बालि की त्रास कपीस बसैं गिरि,
-जात महाप्रभु पंथ निहारो I
-चौंकि महामुनि साप दियो तब,
-चाहिए कौन बिचार बिचारो I
-कैद्विज रूप लिवाय महाप्रभु,
-सो तुम दास के सोक निवारो
+बंधू समेत जबै अहिरावन,
+लै रघुनाथ पताल सिधारो I
+देबिन्हीं पूजि भलि विधि सों बलि,
+देउ सबै मिलि मन्त्र विचारो I
+जाये सहाए भयो तब ही,
+अहिरावन सैन्य समेत संहारो I
 ```
 
-_Baali Ki Traas Kapis Basey Giri,
-Jaat Mahaprabhu Panth Niharo.
-Chaunki Maha Muni Shaap Diyo Tab,
-Chahiy Kaun Bichar Bicharo.
-Kay Dwij Roop Livaya Mahaprabhu,
-So Tum Das Ke Sok Nivaro_
+_Bandhu Samet Jabey Ahiravan,
+Ley Ragunath Pataal Sidhaaro.
+Debihi Puji Bhali Vidhi So Bali,
+Deoo Sabey Mili Mantra Bichaaro.
+Jaaya Sahaya Bhayo Tab Hi,
+Ahiravan Sainya Samet Sanhaaro
 
->Tortured by Baali, the King of Monkeys (Sugriv) was living in the mountains.
-???
-???
-Disguised as a brahmin, you brought the Great God (Ram),
-and so you relieved the devotee of sorrow.
+> Ahiraavan kidnapped Raghunath (Sri Ram) and his brother (Laxman)
+and took them to Hell (Pataal)
+(He) did all the ritual properly (for sacrifice)
+and chanted all the Mantras which he got.
+At that time, you went for help,
+and killed Ahiraavan along with his whole army.
 
 ## Story
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem purus, pretium in nibh in, scelerisque posuere justo. Morbi ex ante, euismod a metus vel, aliquet porttitor quam. Mauris id sollicitudin lorem. Nulla mollis nulla et aliquam efficitur. Maecenas auctor lacus nec tortor posuere, convallis pharetra lectus lobortis. Proin sit amet mauris elit. In pellentesque molestie lectus non placerat. Ut sit amet tortor quis arcu sodales rhoncus. Ut et turpis vel nulla feugiat cursus non ut urna. Cras at ante diam. In non massa ornare, congue lorem eget, molestie velit. Sed rutrum sagittis faucibus.

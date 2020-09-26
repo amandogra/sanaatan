@@ -1,39 +1,37 @@
 ---
-title: When He Carried the God
-description: The story about the time when Hanuman brought both Ram and Laxman by carrying them on his shoulders.
-date: 2020-09-21
+title: A Humble Request
+description: I pray thee for your help
+date: 2020-09-25
 tags:
   - hanuman
   - sankatmochan
 layout: layouts/post.njk
 cover: images/HanuCarryingRamLaxman.jpg
 eleventyNavigation:
-  key: Chapter-Two
-  title: When He Carried the God
-  order: 2
+  key: Chapter-Eight
+  title: A Humble Request
+  order: 8
   parent: Sankatmochan
 ---
 ```
-बालि की त्रास कपीस बसैं गिरि,
-जात महाप्रभु पंथ निहारो I
-चौंकि महामुनि साप दियो तब,
-चाहिए कौन बिचार बिचारो I
-कैद्विज रूप लिवाय महाप्रभु,
-सो तुम दास के सोक निवारो
+काज किये बड़ देवन के तुम,
+बीर महाप्रभु देखि बिचारो I
+कौन सो संकट मोर गरीब को,
+जो तुमसे नहिं जात है टारो I
+बेगि हरो हनुमान महाप्रभु,
+जो कछु संकट होए हमारो I
 ```
 
-_Baali Ki Traas Kapis Basey Giri,
-Jaat Mahaprabhu Panth Niharo.
-Chaunki Maha Muni Shaap Diyo Tab,
-Chahiy Kaun Bichar Bicharo.
-Kay Dwij Roop Livaya Mahaprabhu,
-So Tum Das Ke Sok Nivaro_
+_Kaaj Kiye Bad Devan Ke Tum,
+Bir Mahaprabhu Dekhi Bichaaro.
+Kaun So Sankat Mor Garib Ko,
+Jo Tumso Nahi Jaat Hai Taaro.
+Baig Haro Hanuman Mahaprabhu,
+Jo Kuch Sankat Hoey Hamaro._
 
->Tortured by Baali, the King of Monkeys (Sugriv) was living in the mountains.
-???
-???
-Disguised as a brahmin, you brought the Great God (Ram),
-and so you relieved the devotee of sorrow.
+> You have done tasks for great Gods.
+O Brave Great Lord! (Please) Look and Think, Is any of trouble 
+?
 
 ## Story
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem purus, pretium in nibh in, scelerisque posuere justo. Morbi ex ante, euismod a metus vel, aliquet porttitor quam. Mauris id sollicitudin lorem. Nulla mollis nulla et aliquam efficitur. Maecenas auctor lacus nec tortor posuere, convallis pharetra lectus lobortis. Proin sit amet mauris elit. In pellentesque molestie lectus non placerat. Ut sit amet tortor quis arcu sodales rhoncus. Ut et turpis vel nulla feugiat cursus non ut urna. Cras at ante diam. In non massa ornare, congue lorem eget, molestie velit. Sed rutrum sagittis faucibus.

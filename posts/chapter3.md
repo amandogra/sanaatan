@@ -1,39 +1,38 @@
 ---
-title: When He Carried the God
-description: The story about the time when Hanuman brought both Ram and Laxman by carrying them on his shoulders.
-date: 2020-09-21
+title: When He Jumped Across The Ocean
+description: The story about the time when Hanuman jumped across the Ocean to bring the news about Devi Sita.
+date: 2020-09-25
 tags:
   - hanuman
   - sankatmochan
 layout: layouts/post.njk
 cover: images/HanuCarryingRamLaxman.jpg
 eleventyNavigation:
-  key: Chapter-Two
-  title: When He Carried the God
-  order: 2
+  key: Chapter-Three
+  title: When He Jumped Across The Ocean
+  order: 3
   parent: Sankatmochan
 ---
 ```
-बालि की त्रास कपीस बसैं गिरि,
-जात महाप्रभु पंथ निहारो I
-चौंकि महामुनि साप दियो तब,
-चाहिए कौन बिचार बिचारो I
-कैद्विज रूप लिवाय महाप्रभु,
-सो तुम दास के सोक निवारो
+अंगद के संग लेन गए सिय,
+खोज कपीस यह बैन उचारो I
+जीवत ना बचिहौ हम सो जु,
+बिना सुधि लाये इहाँ पगु धारो I
+हेरी थके तट सिन्धु सबे तब,
+लाए सिया-सुधि प्राण उबारो I
 ```
 
-_Baali Ki Traas Kapis Basey Giri,
-Jaat Mahaprabhu Panth Niharo.
-Chaunki Maha Muni Shaap Diyo Tab,
-Chahiy Kaun Bichar Bicharo.
-Kay Dwij Roop Livaya Mahaprabhu,
-So Tum Das Ke Sok Nivaro_
+_Angad Ke Sang Len Gaye Siya
+Khoj Kapis Yeh Bain Ucharo.
+Jiwat Na Bachiho Hum So Ju,
+Bina Sudhi Laye Ihan Pagu Dharo.
+Heri Thake Tak Sindhu Sabe Tab
+Laye Siya Sudhi Pran Ubaro._
 
->Tortured by Baali, the King of Monkeys (Sugriv) was living in the mountains.
-???
-???
-Disguised as a brahmin, you brought the Great God (Ram),
-and so you relieved the devotee of sorrow.
+>When you along with Angad were going to find the whereabouts of Siya (Goddess Sita),
+King of Monkeys (Sugriv) declared, "None of us will live, if you set a foot back without any news (about Sita)".
+(Later) when all of them were tired and disappointed at the bank of the Ocean,
+then you brought the news and saved everyone's life.
 
 ## Story
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem purus, pretium in nibh in, scelerisque posuere justo. Morbi ex ante, euismod a metus vel, aliquet porttitor quam. Mauris id sollicitudin lorem. Nulla mollis nulla et aliquam efficitur. Maecenas auctor lacus nec tortor posuere, convallis pharetra lectus lobortis. Proin sit amet mauris elit. In pellentesque molestie lectus non placerat. Ut sit amet tortor quis arcu sodales rhoncus. Ut et turpis vel nulla feugiat cursus non ut urna. Cras at ante diam. In non massa ornare, congue lorem eget, molestie velit. Sed rutrum sagittis faucibus.
