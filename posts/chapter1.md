@@ -34,13 +34,17 @@ The world got into a problem which no one could solve.
 Then the Gods requested you and by sparing the sun, you eliminated everyone's suffering.
 
 ## Story
-One early morning, child Sunder woke up starving for food. He saw the Sun and assumed that it is some kind of sweet or candy. Being a child, he thought of eating it. In an attempt to hold the Sun, he jumped towards it and instantly, he was flying towards the sun. Nearer he was going to the Sun, the larger it was appearing as it was getting closer and closer. So, unintentionally, Sunder grew his own size too. Soon, he became so big that he was able to put the whole Sun in his mouth. As soon as he put the Sun in his mouth, all of the three worlds, became dark. All the people in the world got scared.
+One early morning, child Sunder woke up starving for food. He saw the Sun and assumed that it is some kind of sweet or candy. Being a child, he thought of eating it. In an attempt to hold the Sun, he jumped towards it and instantly, he was flying towards the sun. Nearer he was going to the Sun, the larger it was appearing as it was getting closer and closer. So, unintentionally, Sunder grew his own size too. Soon, he became so big that he was able to put the whole Sun in his mouth. As soon as he put the Sun in his mouth, all of the universe became dark. All the people in the world got scared.
+
+![Hanuman falling](/images/SunderNearSun.png)
 
 Even the Demigods were terrified. All the Gods, quickly visited Sunder and requested him to leave the Sun. Child Sunder obliged and let the Sun go. The Sun God breathed the sigh of relief. All the other Gods too.
 
 At that moment, there came Indr, the lord of Heaven on his ride, the elephant called Araavat. The boy Sunder, started playing with the elephant. Lord Indr got very furious. He summoned his celestial weapon called 'Vajr', and struck the child with it.
 
 The weapon hit Sunder's chin and he flew like a cannonball towards the earth. While Sunder was unconsciously falling towards earth, all the `devtas` (DemiGods) were worried that he's going to crash into earth and neighboring planets.
+
+![Hanuman falling](/images/SunderFalling.png)
 
 Almost out of nowhere someone came and embraced the kid in his arms. It was Vayu Dev, the Wind God, God-father of Sunder. He shrank his and Sunder's size and landed slowly on the surface of the earth. Other demigods also landed behind him.
 

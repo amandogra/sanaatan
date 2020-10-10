@@ -35,9 +35,18 @@ King of Monkeys (Sugriv) declared, "None of us will live, if you set a foot back
 then you brought the news and saved everyone's life.
 
 ## Story
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem purus, pretium in nibh in, scelerisque posuere justo. Morbi ex ante, euismod a metus vel, aliquet porttitor quam. Mauris id sollicitudin lorem. Nulla mollis nulla et aliquam efficitur. Maecenas auctor lacus nec tortor posuere, convallis pharetra lectus lobortis. Proin sit amet mauris elit. In pellentesque molestie lectus non placerat. Ut sit amet tortor quis arcu sodales rhoncus. Ut et turpis vel nulla feugiat cursus non ut urna. Cras at ante diam. In non massa ornare, congue lorem eget, molestie velit. Sed rutrum sagittis faucibus.
+As [promised](/chapter2.html), Sugreev instructed his informers to go in all directions and look for _devi_ Sita. He decreed that if any of his soldiers set a foot back in Kishkingha without the information about Sita, he would kill them personally.
 
-Morbi lobortis nisl non fringilla iaculis. Vivamus a turpis felis. Nullam et justo nec arcu blandit feugiat. Maecenas ullamcorper viverra magna, sed porttitor ligula ornare a. Suspendisse vel nibh id justo pulvinar fermentum vel sit amet velit. Vestibulum at leo accumsan, blandit erat lobortis, elementum mi. Proin tincidunt tortor venenatis nisi dapibus, eu commodo nunc rutrum. Curabitur congue lacinia ultricies. Cras scelerisque pretium sem. Vivamus in aliquet ex. Duis fringilla efficitur odio, vel ullamcorper leo dictum id. Quisque efficitur metus massa, ut pharetra velit malesuada a. Nunc ac malesuada tortor. Nunc vitae blandit lorem.
+Everyone went looking for an information related to the kidnapping of Sita. Lord Hanuman, Prince Angad and Jambavaan were sent in south direction.
+
+![Hanuman looking for Siya](/images/Looking.png)
+
+They walked miles and miles and asked everyone they met if anyone knew anything about a lady being kidnapped. No one had seen Sita, however many confirmed that they had seen a plane going south within that time frame. So they kept walking south.
+
+They reached the end of the land, but didn't find Sita or her news. When they reached the sea shore, Angad got really upset. He felt like a failure. He wailed and cried that they are going to die. At that time, a lady appeared from the nearby cave. She was a _saadhvi_ (female sage). Some people say that her name was Meera. When she inquired about the ruckus she was told that they are looking for a lady who was kidnapped and was last seen in a plane coming south.
+
+Meera confirmed that she had seen a plane coming from and going to south of that sea shore. She said that there is an island, called Lanka. That plane must belong to the King of Lanka.
+![Hanuman flying off the beach](/images/SindhuTat.png)
 
 Nulla vel imperdiet odio. Sed sapien tellus, euismod et eleifend quis, rhoncus non enim. Praesent odio mi, ultrices id mattis et, luctus ut ex. Sed vulputate viverra orci, in dignissim nibh convallis et. Suspendisse lobortis maximus nibh in fringilla. Duis accumsan euismod nunc eget mollis. Cras pretium semper luctus. Vivamus fermentum pretium velit ut faucibus. Nam rhoncus enim augue, eu vulputate nibh commodo mattis. Nullam euismod nulla scelerisque hendrerit rhoncus.
 

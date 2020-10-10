@@ -29,19 +29,48 @@ Chahiy Kaun Bichar Bicharo.
 Kay Dwij Roop Livaya Mahaprabhu,
 So Tum Das Ke Sok Nivaro_
 
->Tortured by Baali, the King of Monkeys (Sugriv) was living in the mountains.
-???
-???
+>Tortured by Baali, the King of Monkeys (Sugreev) was living in the mountains (RishiMook mountain).
+(At that time) You went and waited for Supreme Lord (Sri Ram)
+Great Saint (Sage Matang) cursed (Vali, that he would die if he ever sets foot on RishiMook mountain)
+(In that situation, You) thought about who do we need (to help Sugreev out)
 Disguised as a brahmin, you brought the Great God (Ram),
 and so you relieved the devotee of sorrow.
 
 ## Story
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem purus, pretium in nibh in, scelerisque posuere justo. Morbi ex ante, euismod a metus vel, aliquet porttitor quam. Mauris id sollicitudin lorem. Nulla mollis nulla et aliquam efficitur. Maecenas auctor lacus nec tortor posuere, convallis pharetra lectus lobortis. Proin sit amet mauris elit. In pellentesque molestie lectus non placerat. Ut sit amet tortor quis arcu sodales rhoncus. Ut et turpis vel nulla feugiat cursus non ut urna. Cras at ante diam. In non massa ornare, congue lorem eget, molestie velit. Sed rutrum sagittis faucibus.
+Once there were two _vaanar_ (Monkey-man) brothers named 'Baali' and 'Sugreev'. They both were the rulers of a _vaanar_ 
+kingdom known as 'Kishkindha'. Baali was very strong as he had a super-power. Baali's superpower was that he could
+extract out half of the strength off anyone who faced him.
 
-Morbi lobortis nisl non fringilla iaculis. Vivamus a turpis felis. Nullam et justo nec arcu blandit feugiat. Maecenas ullamcorper viverra magna, sed porttitor ligula ornare a. Suspendisse vel nibh id justo pulvinar fermentum vel sit amet velit. Vestibulum at leo accumsan, blandit erat lobortis, elementum mi. Proin tincidunt tortor venenatis nisi dapibus, eu commodo nunc rutrum. Curabitur congue lacinia ultricies. Cras scelerisque pretium sem. Vivamus in aliquet ex. Duis fringilla efficitur odio, vel ullamcorper leo dictum id. Quisque efficitur metus massa, ut pharetra velit malesuada a. Nunc ac malesuada tortor. Nunc vitae blandit lorem.
+One day, Baali was fighting with demon Mayavi. In the middle of the fight, Mayavi ran and hid inside a deep cave. Baali
+followed him. Before entering the cave, Baali instructed Sugreev (his brother) to wait for him outside the mouth of the cave.
 
-Nulla vel imperdiet odio. Sed sapien tellus, euismod et eleifend quis, rhoncus non enim. Praesent odio mi, ultrices id mattis et, luctus ut ex. Sed vulputate viverra orci, in dignissim nibh convallis et. Suspendisse lobortis maximus nibh in fringilla. Duis accumsan euismod nunc eget mollis. Cras pretium semper luctus. Vivamus fermentum pretium velit ut faucibus. Nam rhoncus enim augue, eu vulputate nibh commodo mattis. Nullam euismod nulla scelerisque hendrerit rhoncus.
+Sugreev waited for a month, but Baali didn't come back. Sugreev assumed that Baali was killed. To trap the demon inside,
+he put a big rock at the mouth of the cave and came back to his kingdom.
 
-Ut congue magna id arcu hendrerit, vulputate aliquet nisl gravida. Sed id velit rutrum, sollicitudin ligula vitae, consequat urna. Aenean ultrices ultricies purus, quis condimentum tortor ultrices a. Mauris fermentum justo in lorem venenatis, nec sollicitudin enim porttitor. Pellentesque quis dolor at massa fringilla tempus. Donec magna purus, aliquam a cursus ut, dapibus ac nisl. Ut elementum sapien ac tortor mollis ullamcorper.
+However, Baali was still alive. After killing the demon Mayavi, when Baali came out of the cave, he assumed that his own brother
+has betrayed him. He got very angry. When he reached Kishkindha and found his brother ruling the kingdom, he got enraged
+and tried to kill his brother. Sugreev tried to explain his side to story to him, but Baali was not listening. He exiled his
+brother and took away one of his wives.
 
-Vestibulum sodales, erat et rutrum dictum, arcu sem facilisis nunc, eu ornare sapien risus id orci. Etiam eu sem eu ipsum rutrum convallis sit amet non libero. Ut ultricies urna ut arcu tincidunt, nec posuere ex imperdiet. Sed vitae egestas felis. Praesent eu accumsan magna. Quisque metus arcu, auctor eu mollis sit amet, pulvinar cursus ex. Nunc placerat tempor blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer porta sapien et fringilla luctus. Etiam porttitor sodales enim, vel congue elit vestibulum et. Nullam sed orci rhoncus, suscipit nulla at, blandit est. Pellentesque non lacinia turpis, id cursus lectus. Integer eu erat in massa varius bibendum. Donec porttitor urna nec efficitur euismod. Duis mollis varius vulputate.
+Everyone knew that Sugreev is going to die because Baali would use his powers and get half of Sugreev's strength.
+Hanumanji knew about the mountain where Baali couldn't set foot, because of an old curse by a _chaunki maha muni_
+(Great great sage) named 'Rishi Matang'. Hanuman took Sugreev and his family to mount Rishiamook. The family was safe there.
+
+Now Hanuman knew that Lord Ram could relieve them out of this difficult time and he started looking for him. After few
+days both Ram and Laxman were crossing the region in the search for Sita. Sugreev's informers told him about the two hermits roaming in the vicinity.
+At first Sugreev thought that those two might by spies of Baali, so he sent Hanuman to investigate.
+
+Hanuman disguised as a _brahmin_ (learned person) and appeared in front of Ram and Laxman to investigate. After a short conversation, he was convinced that those two mena were indeed Sri Ram and his younger brother Laxman.
+He revealed this true identity and requested them to visit his King Sugreev suggesting that Sugreev might be able to help them. He even offered to carry them both on his back to save time.
+
+![Hanuman Carrying Ram and Laxman](/images/HanuCarryingRamLaxman.jpg)
+
+Hanuman grew his size and carried both brothers on his shoulders each and flew towards the Rishiamook mountain.
+
+King Sugreev welcomed both the brothers with open arms. After initial formalities both Sri Ram and King Sugreev shared their troubles with each other. King Sugreev promised Ram that if Ram somehow helps him kill Baali, then he along with his army would help Ram in finding Sita. To which Lord Ram agrees.
+
+So the plan is made and according to the plan King Sugreev challenges Baali for a duel. Baali reached the designated place for a fight. As soon as they came face to face, Sugreev started feeling weak and Baali started beating him mindlessly.
+
+Meanwhile, Lord Ram was hidden behind a big tree in the near woods with his bow and arrow ready. As soon as he got a chance he shot the arrow towards Baali. The arrow hit Baali in the back and he died instantly. Sugreev and his people rejoiced.
+
+Now, it was King Sugreev's turn to return the favor.

@@ -7,10 +7,13 @@
   --color-link: #082840;
   --color-bg: #fff;
   --color-bg-code: #f6f6f6;
+  --color-bg-img: #fff;
   --font-san-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;;
   --font-code: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
   --font-serif: 'Martel', system-ui, serif;
+
+  --width-post: 48rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,25 +24,23 @@
     --color-link: #e5e5e8;
     --color-bg: #000;
     --color-bg-code: #292929;
+    --color-bg-img: #777;
   }
 }
 
 * {
   box-sizing: border-box;
+  font-size: 18px;
 }
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: var(--font-serif);
+  font-size: 1rem;
   font-weight: 400;
   color: var(--color-default);
   background-color: var(--color-bg);
-}
-p,
-.tmpl-post li,
-img {
-  /* max-width: 37.5em; [> 600px /16 <] */
 }
 p,
 .tmpl-post li {
@@ -278,6 +279,7 @@ input#toggleToC:checked ~ ul {
 }
 /* toggle menu ends here */
 
+footer a,
 footer p {
   font-family: var(--font-san-serif);
   font-size: 0.8rem;
@@ -290,6 +292,13 @@ ul.pagination {
   margin: 2rem 0;
   padding: 2rem 0 0;
   border-top: 1px solid var(--color-disabled);
+}
+.tmpl-post img {
+  background: var(--color-bg-img);
+  max-width: var(--width-post);
+}
+.tmpl-post img:hover {
+  background: white;
 }
 
 @media (min-width: 48rem) {
@@ -355,7 +364,7 @@ ul.pagination {
     overflow-y: scroll;
   }
   .content {
-    max-width: 48rem;
+    max-width: var(--width-post);
   }
 
   footer {
