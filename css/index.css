@@ -296,6 +296,7 @@ ul.pagination {
 .tmpl-post img {
   background: var(--color-bg-img);
   max-width: var(--width-post);
+  width: 100%;
 }
 .tmpl-post img:hover {
   background: white;

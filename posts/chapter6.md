@@ -1,5 +1,5 @@
 ---
-title: When He Rode An Eagle
+title: When He Brought An Eagle to Fight
 description: The story about the time when Hanuman saved Sri Ram along with his army from snakes.
 date: 2020-09-25
 tags:
@@ -9,7 +9,7 @@ layout: layouts/post.njk
 cover: images/HanuCarryingRamLaxman.jpg
 eleventyNavigation:
   key: Chapter-Six
-  title: When He Rode An Eagle
+  title: When He Brought An Eagle to Fight
   order: 6
   parent: Sankatmochan
 ---
