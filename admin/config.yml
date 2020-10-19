@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: master
+publish_mode: editorial_workflow
+media_folder: "images"
+collections:
+  - name: "chapters" # Used in routes, e.g., /admin/collections/blog
+    label: "New Chapter" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Excerpt", name: "description", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
+      - {label: "Cover Image", name: "cover", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true}
+      - {label: "Body", name: "body", widget: "markdown"}
+        # TODO: handle eleventyNavigation
+filter:
+     field: tags
