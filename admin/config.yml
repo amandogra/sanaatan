@@ -1,87 +1,47 @@
---- 
-backend: 
-  branch: master
+backend:
   name: git-gateway
-collections: 
-  - 
-    create: true
-    fields: 
-      - 
-        label: Title
-        name: title
-        widget: string
-      - 
-        label: "Publish Date"
-        name: date
-        widget: datetime
-      - 
-        label: Summary
-        name: description
-        widget: text
-      - 
-        default: layouts/post.njk
-        label: Layout
-        name: layout
-        widget: hidden
-      - 
-        default: 
-          - post
-        label: Tags
-        name: tags
-        widget: list
-      - 
-        fields: 
-          - 
-            label: Key
-            name: key
-            widget: string
-          - 
-            label: Title
-            name: title
-            widget: string
-          - 
-            default: Sankatmochan
-            label: Parent
-            name: parent
-            widget: string
-          - 
-            default: 0
-            label: Order
-            name: order
-            widget: number
-        label: Navigation
-        name: eleventyNavigation
-        widget: object
-      - 
-        label: Body
-        name: body
-        widget: markdown
-    folder: posts
-    label: Post
-    name: blog
-    slug: "{{slug}}"
-  - 
-    create: false
-    fields: 
-      - 
-        label: Title
-        name: title
-        widget: string
-      - 
-        label: "Publish Date"
-        name: date
-        widget: datetime
-      - 
-        label: Permalink
-        name: permalink
-        widget: string
-      - 
-        label: Body
-        name: body
-        widget: markdown
-    folder: pages
-    label: Page
-    name: pages
-    slug: "{{slug}}"
-media_folder: static/img
+  branch: master # Branch to update (optional; defaults to master)
+
 publish_mode: editorial_workflow
+
+media_folder: "static/img"
+
+collections:
+  # Our blog posts
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Post" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Summary", name: "description", widget: "text" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+        name: "eleventyNavigation"
+        widget: "object"
+        fields:
+          - { label: "Key", name: "key", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Parent", name: "parent", widget: "string", default: "Sankatmochan" }
+          - { label: "Order", name: "order", widget: "number", default: 0 }
+      - { label: "Body", name: "body", widget: "markdown" }
+  # Our pages e.g. About
+  - name: "pages"
+    label: "Page"
+    folder: "pages"
+    create: false # Change to true to allow editors to create new pages
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
+      # - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+        # name: "eleventyNavigation"
+        # widget: "object"
+        # fields:
+          # - { label: "Key", name: "key", widget: "string" }
+          # - { label: "Order", name: "order", widget: "number", default: 0 }
+      - { label: "Body", name: "body", widget: "markdown" }
