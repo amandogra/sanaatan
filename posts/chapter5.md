@@ -48,4 +48,6 @@ Nulla vel imperdiet odio. Sed sapien tellus, euismod et eleifend quis, rhoncus n
 
 Ut congue magna id arcu hendrerit, vulputate aliquet nisl gravida. Sed id velit rutrum, sollicitudin ligula vitae, consequat urna. Aenean ultrices ultricies purus, quis condimentum tortor ultrices a. Mauris fermentum justo in lorem venenatis, nec sollicitudin enim porttitor. Pellentesque quis dolor at massa fringilla tempus. Donec magna purus, aliquam a cursus ut, dapibus ac nisl. Ut elementum sapien ac tortor mollis ullamcorper.
 
+![Hanuman carrying Mount Dron](/images/HanuCarryingMount.png)
+
 Vestibulum sodales, erat et rutrum dictum, arcu sem facilisis nunc, eu ornare sapien risus id orci. Etiam eu sem eu ipsum rutrum convallis sit amet non libero. Ut ultricies urna ut arcu tincidunt, nec posuere ex imperdiet. Sed vitae egestas felis. Praesent eu accumsan magna. Quisque metus arcu, auctor eu mollis sit amet, pulvinar cursus ex. Nunc placerat tempor blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer porta sapien et fringilla luctus. Etiam porttitor sodales enim, vel congue elit vestibulum et. Nullam sed orci rhoncus, suscipit nulla at, blandit est. Pellentesque non lacinia turpis, id cursus lectus. Integer eu erat in massa varius bibendum. Donec porttitor urna nec efficitur euismod. Duis mollis varius vulputate.

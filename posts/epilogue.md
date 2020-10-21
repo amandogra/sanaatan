@@ -29,4 +29,6 @@ hail (that) Monkey God!
 ## Purport
 Lord Hanuman is the real problem solver. He has helped many Gods, Demi Gods multiple times. Solving human problems for him is very easy.
 
+![Hanuman meditating](/images/Meditating.png)
+
 In Hindu scriptures, it is advised to pray to him as he will save you from any kind of danger and solve all of your problems.
