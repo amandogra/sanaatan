@@ -1,6 +1,6 @@
 {
   "name": "sanaatan",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A collection of stories from Indian subcontinent",
   "scripts": {
     "build": "eleventy",
