@@ -19,10 +19,10 @@ collections:
       - { label: "Summary", name: "description", widget: "text" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-      - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
-        name: "eleventyNavigation"
-        widget: "object"
-        fields:
+      - { label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+          name: "eleventyNavigation"
+          widget: "object"
+          fields:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Parent", name: "parent", widget: "string", default: "Sankatmochan" }
