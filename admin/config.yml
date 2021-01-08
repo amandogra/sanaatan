@@ -2,9 +2,10 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-publish_mode: editorial_workflow
+# Uncomment below to enable drafts
+# publish_mode: editorial_workflow
 
-media_folder: "static/img"
+media_folder: "static/img" # Media files will be stored in the repo under images/uploads
 
 collections:
   # Our blog posts
@@ -16,17 +17,9 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Summary", name: "description", widget: "text" }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk" }
+      - { label: "Author", name: "author", widget: "string", default: "Anonymous" }
+      - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-      - { label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
-          name: "eleventyNavigation"
-          widget: "object"
-          fields:
-          - { label: "Key", name: "key", widget: "string" }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Parent", name: "parent", widget: "string", default: "Sankatmochan" }
-          - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
   # Our pages e.g. About
   - name: "pages"
@@ -38,10 +31,10 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Permalink", name: "permalink", widget: "string" }
-      # - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
-        # name: "eleventyNavigation"
-        # widget: "object"
-        # fields:
-          # - { label: "Key", name: "key", widget: "string" }
-          # - { label: "Order", name: "order", widget: "number", default: 0 }
+      - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+        name: "eleventyNavigation"
+        widget: "object"
+        fields:
+          - { label: "Key", name: "key", widget: "string" }
+          - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
