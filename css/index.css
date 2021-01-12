@@ -24,7 +24,6 @@
     --color-link: #e5e5e8;
     --color-bg: #000;
     --color-bg-code: #292929;
-    --color-bg-img: #777;
   }
 }
 
@@ -298,9 +297,6 @@ ul.pagination {
   max-width: var(--width-post);
   width: 100%;
   height: auto;
-}
-.tmpl-post img:hover {
-  background: white;
 }
 
 @media (min-width: 48rem) {
