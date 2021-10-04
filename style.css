@@ -1,0 +1,39 @@
+body, html {
+  background-color: var(--nord6);
+  color: var(--nord0);
+  display: grid;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.centered { /* thing to center */
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+  margin: 0;
+  padding: 22px 22px 0;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 0;
+  padding: 8px 0 22px;
+}
+
+/*Dark mode definitions*/
+@media (prefers-color-scheme: dark) {
+  body, html {
+    background-color: var(--nord0);
+    color: var(--nord6);
+  }
+  h1 {
+    color: var(--nord13);
+  }
+}
