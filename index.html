@@ -9,18 +9,25 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./nord.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css" integrity="sha512-b42SanD3pNHoihKwgABd18JUZ2g9j423/frxIP5/gtYgfBz/0nDHGdY/3hi+3JwhSckM3JLklQ/T6tJmV7mZEw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="container">
       <header>
-        <a href="/" class="logo">Om!</a>
+        <a href="/" class="logo">
+          <span class="a11y">Om</span>
+          <picture>
+            <source srcset="./assets/images/om_red_light.svg"
+                    media="(prefers-color-scheme: dark)">
+              <img src="./assets/images/om_red_dark.svg" alt="" />
+          </picture>
+        </a>
       </header>
       <main>
         <div class="title-block">
-          <h1 class="title"><span>mysterious</span>mahabharat</h1>
-          <p class="subtitle">Stories and trivia from one of the most ancient text.</p>
+          <h1 class="title animated fadeIn slow"><span>mysterious</span>mahabharat</h1>
+          <p class="subtitle animated slideInUp">Stories and trivia from one of the most ancient text.</p>
         </div>
         <div class="main-action-block">
           <a href="/stories" class="main-action">
@@ -35,3 +42,4 @@
     </div>
   </body>
 </html>
+

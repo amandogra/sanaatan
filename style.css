@@ -1,7 +1,63 @@
+/* All copyrights are reserved with Aman Dogra (amandogra.com) Unless specified*/
+:root {
+  --pure-white: #fff;
+  --pure-black: #000;
+  /* following nord colors are created by Arctic Ice Sudio
+   * Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+   * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+   *
+   * Project:    Nord
+   * Version:    0.2.0
+   * Repository: https://github.com/arcticicestudio/nord
+   * License:    MIT
+   * References:
+   *   https://www.w3.org/TR/css-variables
+   *   https://www.w3.org/TR/selectors/#root-pseudo
+   *   https://drafts.csswg.org/css-variables
+   *   https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
+   *   http://warpspire.com/kss
+   *   https://github.com/kss-node/kss-node
+  */
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+  --nord7: #8fbcbb;
+  --nord8: #88c0d0;
+  --nord9: #81a1c1;
+  --nord10: #5e81ac;
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+  --nord15: #b48ead;
+  /* nord color definitions end here*/
+  --bg-color: var(--pure-white);
+  --border-color: var(--nord5); /*var(--pure-black);*/
+  --text-color: var(--pure-black);
+  --heading-color: var(--pure-black); /*var(--nord0);*/
+  --accent-color: rgb(172, 6, 16);
+  --border-size: 2px;
+}
+
+/*Dark mode colors*/
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: var(--nord0);
+    --border-color: var(--nord3);
+    --text-color: var(--nord6);
+    --heading-color: var(--nord13);
+    --accent-color: var(--nord11);
+  }
+}
+
 body,
 html {
-  background-color: var(--nord6);
-  color: var(--nord0);
+  background-color: var(--bg-color);
+  color: var(--text-color);
   display: grid;
   font-family: 'Libre Baskerville', serif;
   font-size: 18px;
@@ -11,7 +67,8 @@ html {
 }
 
 h1 {
-  font-size: 3rem;
+  color: var(--heading-color);
+  font-size: 4rem;
   font-weight: 700;
   line-height: 1;
   margin: 0;
@@ -25,18 +82,19 @@ p {
 }
 
 a {
-  color: var(--nord11);
+  color: var(--accent-color);
   text-decoration: underline;
 }
 
 .container {
   margin: 0 auto;
-  padding-right: calc(1em + env(safe-area-inset-right));
-  padding-left: calc(1em + env(safe-area-inset-left));
+  padding-right: calc(2em + env(safe-area-inset-right));
+  padding-left: calc(2em + env(safe-area-inset-left));
   max-width: 64rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
 }
 header {
   padding-top: 2rem;
@@ -52,7 +110,17 @@ footer {
   padding-bottom: 2rem;
 }
 
+.logo {
+  height: 2rem;
+  width: 2rem;
+  display: block;
+}
+.logo img {
+  height: 100%;
+  width: auto;
+}
 .title-block {
+  width: 50%;
 }
 .title {
   padding-bottom: 3rem;
@@ -60,6 +128,8 @@ footer {
 
 .title > span {
   display: block;
+  letter-spacing: 0.17rem;
+  font-weight: 400;
 }
 p.subtitle {
   padding-right: 2rem;
@@ -69,16 +139,18 @@ p.subtitle {
 }
 .main-action-block {
   position: relative;
+  width: 50%;
 }
 .main-action {
-  color: var(--nord6);
   display: inline-block;
   position: relative;
   top: calc(50% - 0.5rem);
+  left: calc(50% - 5rem);
 }
 .main-action:after {
+  background-color: transparent;
+  border: var(--border-size) solid var(--border-color);
   content: '';
-  background-color: var(--nord11);
   border-radius: 50%;
   display: block;
   height: 8rem;
@@ -87,12 +159,12 @@ p.subtitle {
   top: -3rem;
   z-index: 1;
   animation-name: fade-in;
-  animation-duration: 2s;
+  animation-duration: 3s;
 }
 .arrow {
   position: absolute;
-  left: 4.5rem;
-  top: 0.825rem;
+  left: 4.8rem;
+  top: 0.9rem;
   z-index: 2;
   animation-name: arrow-appear;
   animation-duration: 2s;
@@ -105,7 +177,7 @@ p.subtitle {
   width: 2rem;
   height: 4px;
   right: -8px;
-  background-color: #fff;
+  background-color: var(--accent-color);
 }
 
 .arrow::after {
@@ -118,20 +190,23 @@ p.subtitle {
   transform: rotate(-45deg);
 }
 .main-action:hover .arrow {
-  animation-name: arrow-hover;
-  animation-duration: 4s;
-}
-@keyframes arrow-hover {
-  from {right: 1rem}
-  to {right: -0.4rem;}
+  animation: float 2s ease-out infinite;
 }
 @keyframes arrow-appear {
-  from {right: 0.8rem}
-  to {right: 0.4rem;}
+  from {
+    right: 0.8rem;
+  }
+  to {
+    right: 0.4rem;
+  }
 }
 @keyframes fade-in {
-  from {opacity: 0}
-  to {opacity: 1}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .credits {
   font-size: 0.9rem;
@@ -144,8 +219,8 @@ p.subtitle {
   position: absolute;
   top: 0;
   width: 10rem;
-  height: 2px;
-  background-color: var(--nord0);
+  height: var(--border-size);
+  background-color: var(--border-color);
 }
 /* accessibility related classes */
 .a11y {
@@ -157,24 +232,10 @@ p.subtitle {
   margin: -1px;
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
-  // rdar://83051597
   clip-path: inset(0px 0px 99.9% 99.9%);
 }
-/*Dark mode definitions*/
-@media (prefers-color-scheme: dark) {
-  body,
-  html {
-    background-color: var(--nord0);
-    color: var(--nord6);
-  }
-  h1 {
-    color: var(--nord13);
-  }
-  .credits::before {
-    background-color: var(--nord6);
-  }
-}
 
+/* Small screen definitions*/
 @media (max-width: 767px) {
   h1 {
     font-size: 2.5rem;
@@ -193,11 +254,33 @@ p.subtitle {
     display: block;
   }
   .title-block {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .main-action-block {
+    padding-bottom: 3rem;
   }
   .main-action {
     margin-top: 5rem;
+    left: 0;
   }
   footer {
     margin-bottom: 2rem;
   }
 }
+
+@keyframes float {
+  0% {
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translatex(20px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
+}
+
