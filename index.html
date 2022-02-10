@@ -10,8 +10,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css" integrity="sha512-b42SanD3pNHoihKwgABd18JUZ2g9j423/frxIP5/gtYgfBz/0nDHGdY/3hi+3JwhSckM3JLklQ/T6tJmV7mZEw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/styles/variables.css" />
-    <link rel="stylesheet" href="./assets/styles/home.css" />
   </head>
   <body>
     <div class="container">
@@ -19,9 +17,9 @@
         <a href="/" class="logo">
           <span class="a11y">Om</span>
           <picture>
-            <source srcset="./assets/images/om_red_light.svg"
+            <source srcset="./src/images/om_red_light.svg"
                     media="(prefers-color-scheme: dark)">
-              <img src="./assets/images/om_red_dark.svg" alt="" />
+              <img src="./src/images/om_red_dark.svg" alt="" />
           </picture>
         </a>
       </header>
@@ -41,6 +39,8 @@
         <p class="credits">Curated by: <a href="https://amandogra.com">Aman Dogra</a></p>
       </footer>
     </div>
+      <div id="app"></div>
+      <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
 
