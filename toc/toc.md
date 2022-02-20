@@ -18,13 +18,16 @@
 - [141-218, 220] Summary through Dhritrashtra monologue (to Sanjaya)
 - [222-251] Sanjaya consoles Dhritrashtr
 - [252-274] Benefits of reading Mahabharat
+
 ### ParvSangraha Parv
 #### Adhyaay Two
-- SamantPanchakKshetra
-- Aukshauhini
-- List of all the 100 parvs
-- Short summary of topics covered in parvs
-- Benefits of reading Mahabharat
+- [1-16] SamantPanchakKshetra
+- [17-28] Aukshauhini
+- [30-39] Glories to Mahabharat Itihas 
+- [40-84] List of all the 100 parvs
+- [85-380] Short summary of topics covered in parvs
+- [381-396] Benefits of reading Mahabharat
+
 ### Paushya Parv
 #### Adhyaay Three
 - Janamejay and Sarma
@@ -36,14 +39,14 @@
 - Earrings of Paushy's queen
 - Utanka vs Takshak
 - Inception of the idea of Snake-sacrifice
+
 ### Paulom Parv
 #### Adhyaay Four
 - Interlude
+
 #### Adhyaay Five
 - Bhrigu lineage
 - Birth of Chyavan (Bhargav)
-- 
-
 
 ### Astik Parv
 ### Anshavataran Parv

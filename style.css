@@ -59,6 +59,7 @@ html {
   background-color: var(--bg-color);
   color: var(--text-color);
   display: grid;
+  align-content: center;
   font-family: 'Libre Baskerville', serif;
   font-size: 18px;
   height: 100%;
