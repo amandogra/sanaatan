@@ -1,0 +1,114 @@
+
+body,
+html {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 18px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: var(--heading-color);
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 2;
+  margin: 0;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+a:hover {
+  color: var(--accent-color);
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.title-block .subtitle {
+  font-size: 115%;
+}
+.main-container {
+  position: relative;
+  padding-top: 3rem;
+}
+
+.toc>ul {
+  margin: 0;
+  padding: 0;
+}
+.toc li {
+  display: block;
+  /* grid-template-columns: 1fr auto; */
+  list-style: none;
+  /* padding: 1rem; */
+  position: relative;
+}
+
+.toc a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.toc a.current {
+  /* background-color: var(--secondary-bg-color); */
+  font-style: oblique;
+}
+.toc a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.toc-canto>details>summary a {
+  font-weight: bold;
+}
+
+.toc summary {
+  border-bottom: 1px solid var(--border-color);
+  position: relative;
+  padding: 1rem 0;
+}
+
+.toc-topic a {
+  border-bottom: 1px solid var(--border-color);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 1rem;
+}
+article p {
+  padding-bottom: 2rem;
+}
+@media (max-width: 320px) {
+  .toc ul {
+    padding: 0;
+    margin: 0;
+  }
+
+}
