@@ -30,12 +30,15 @@
 
 ### Paushya Parv
 #### Adhyaay Three
-- Janamejay and Sarma
-- Janamejay meets Somshrava
-- Story of Aaruni
-- Upamanyu
-- Ved
-- Utanka
+- [1-11] Janamejay and Sarma
+- [12-20] Janamejay meets Shrutshrva and accepts Somshrava as Porohit
+- [21] Three disciples of Ayod-Dhaumy
+- [22-33]Story of Aaruni
+- [33-77]Upmanyu
+  -[56-68] Praises of Ashvin Kumars by Upmanyu
+- [78-81] Ved
+- [82] Janamjeya and Paushya appoint Ved as Upadhyay
+- []Utanka
 - Earrings of Paushy's queen
 - Utanka vs Takshak
 - Inception of the idea of Snake-sacrifice
