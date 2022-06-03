@@ -1,0 +1,11 @@
+---
+layout: layouts/home.njk
+---
+<h1 class="title">Mysterious Mahabharat</h1>
+<p class="sub-title">{{ metadata.description }}</p>
+
+{% set postslist = collections.posts %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
+
+<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>

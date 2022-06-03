@@ -1,0 +1,21 @@
+{
+  "title": "Sanaatan",
+  "url": "https://sanaatan.netlify.app/",
+  "language": "en",
+  "description": "Stories and trivia from ancient text",
+  "feed": {
+    "subtitle": "Stories and trivia from one of the most ancient scripts.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://sanaatan.netlify.app/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://sanaatan.netlify.app/feed/feed.json"
+  },
+  "author": {
+    "name": "Aman Dogra",
+    "email": "amandogra@gmail.com",
+    "url": "https://amandogra.com"
+  }
+}
