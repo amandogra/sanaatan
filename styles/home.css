@@ -59,10 +59,18 @@ footer {
   height: 2rem;
   width: 2rem;
   display: block;
+  text-decoration: none;
+  letter-spacing: -11.25px;
 }
 .logo img {
   height: 100%;
   width: auto;
+}
+.logo .first-m {
+  color: var(--text-color)
+}
+.logo .second-m {
+  color: var(--accent-color)
 }
 .title-block {
   width: 50%;
