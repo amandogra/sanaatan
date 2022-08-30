@@ -30,25 +30,39 @@
 
 ### Paushya Parv
 #### Adhyaay Three
+Inception of the idea of Snake-sacrifice
 - [1-11] Janamejay and Sarma
 - [12-20] Janamejay meets Shrutshrva and accepts Somshrava as Porohit
 - [21] Three disciples of Ayod-Dhaumy
-- [22-33]Story of Aaruni
-- [33-77]Upmanyu
-  -[56-68] Praises of Ashvin Kumars by Upmanyu
-- [78-81] Ved
+- [22-33] Gurubhakti of Aaruni
+- [33-77] Gurubhakti of Upmanyu
+- [56-68] Praises of Ashvin Kumars by Upmanyu
+- [78-81] Gurubhakti of Ved
 - [82] Janamjeya and Paushya appoint Ved as Upadhyay
-- []Utanka
-- Earrings of Paushy's queen
-- Utanka vs Takshak
-- Inception of the idea of Snake-sacrifice
+- [83-92] Gurubhakti of Uttank
+- [93-97] Guru Ved's wife's wish
+- [98-101] Uttank and bullshit
+- [102-109] Uttank meets Paushy
+- [110-112] Uttank gets Earrings of Paushy's queen
+- [113-124] Uttank vs Paushy
+- [125-130] Utanka vs Takshak
+- [131-132] Indr helps Uttank
+- [133-142] Uttank enters Naaglok and praises the Snakes
+- [143-147] Visual representation of Time
+- [148-149] Uttank praises the man with the horse
+- [150-153] Uttank overpowers the Snakes
+- [154-157] Uttank takes the earrings and rides the horse
+- [159] Uttank presents the earrings to his Preceptor's wife
+- [160-169] Uttank queries Ved
+- [170-177] Uttank meets Janamejay
+- [178-188] Uttank provokes Janamejy to take revenge on Takshak
 
 ### Paulom Parv
 #### Adhyaay Four
-- Interlude
+- [1-12] Interlude - Ugrshrva waits for Shaunak
 
 #### Adhyaay Five
-- Bhrigu lineage
+- [1-3] Shaunak inquires about Bhrigu lineage
 - Birth of Chyavan (Bhargav)
 
 ### Astik Parv
