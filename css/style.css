@@ -1,0 +1,52 @@
+html {
+  :root {
+    --bg-primary: #fff;
+    --bg-secondary: #f8f8f8;
+    --color-primary: #000;
+    --color-secondary: #777;
+    --color-link: red
+  }
+  font-size: 18px;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--color-primary);
+  font-size: 1rem;
+}
+/*RESET*/
+h1, h2, h3, h4, h5, h6, p, a, ul {
+  margin: 0;
+  padding: 0;
+}
+/*RESET end here*/
+.container {
+  width: 960px;
+}
+
+header {
+  background: var(--bg-secondary);
+}
+.canto-list {
+  display: grid;
+  column-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  .canto-list_item {
+    list-style: none;
+    .canto-list_item__link {
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      .canto-list_item__link___number {
+        color: var(--color-seconday);
+        font-size: 3rem;
+        line-height: 1.2962962963;
+      }
+      .canto-list_item__link___text {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
