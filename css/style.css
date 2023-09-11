@@ -42,7 +42,7 @@ a {
 
 header {
   text-align: center;
-  padding: 5rem 1rem;
+  padding: 6rem 1rem 8rem;
   .site-title {
     .site-title_caps {
       display: block;
@@ -58,6 +58,15 @@ header {
       line-height: 1.3541666667;
       margin-top: -0.5rem;
     }
+  }
+  .search-bar {
+    margin-top: 2.5rem;
+    appearance: none;
+    border: 1px solid var(--stroke-primary);
+    border-radius: 20px;
+    padding: 0.4rem 0.4rem 0.4rem 1.5rem;
+    width: 100%;
+    max-width: 320px;
   }
 }
 .canto-list {
