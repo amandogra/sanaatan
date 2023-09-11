@@ -1,11 +1,13 @@
+:root {
+  --bg-primary: #fff;
+  --bg-secondary: #f8f8f8;
+  --color-primary: #000;
+  --color-secondary: #777;
+  --color-link: red;
+  --stroke-primary: #1e1e1e;
+  --stroke-secondary: #d3d3d5;
+}
 html {
-  :root {
-    --bg-primary: #fff;
-    --bg-secondary: #f8f8f8;
-    --color-primary: #000;
-    --color-secondary: #777;
-    --color-link: red
-  }
   font-size: 18px;
 }
 
@@ -15,37 +17,75 @@ body {
   font-size: 1rem;
 }
 /*RESET*/
-h1, h2, h3, h4, h5, h6, p, a, ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul {
   margin: 0;
   padding: 0;
 }
-/*RESET end here*/
+/*RESET ends here*/
+/*DEFAULTS*/
+a {
+  color: var(--color-link);
+}
+/*DEFAULTS end here*/
 .container {
   width: 960px;
+  margin: 0 auto;
 }
 
 header {
-  background: var(--bg-secondary);
+  text-align: center;
+  padding: 5rem 1rem;
+  .site-title {
+    .site-title_caps {
+      display: block;
+      font-size: 32px;
+      font-weight: normal;
+      letter-spacing: 11.84px;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+    .site-title_normal {
+      display: block;
+      font-size: 48px;
+      line-height: 1.3541666667;
+      margin-top: -0.5rem;
+    }
+  }
 }
 .canto-list {
   display: grid;
   column-gap: 1rem;
+  row-gap: 4rem;
   grid-template-columns: 1fr 1fr 1fr;
   .canto-list_item {
+    border-top: 1px solid var(--stroke-primary);
     list-style: none;
     .canto-list_item__link {
-      text-decoration: none;
+      color: var(--color-primary);
       display: flex;
       flex-direction: row;
+      padding-top: 1.5rem;
+      text-decoration: none;
       .canto-list_item__link___number {
-        color: var(--color-seconday);
+        color: var(--color-secondary);
         font-size: 3rem;
+        font-style: italic;
         line-height: 1.2962962963;
+        padding: 1rem;
       }
       .canto-list_item__link___text {
         flex: 1;
         display: flex;
         flex-direction: column;
+        padding: 1rem 1rem 1rem 0;
       }
     }
   }
