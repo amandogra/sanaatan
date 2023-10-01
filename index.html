@@ -11,18 +11,20 @@
 <body>
   <nav>
     <div class="container">
-      <!-- TODO: convert into a web-component-->
-      <input type="checkbox" id="darkModeTrigger" name="darkModeTrigger" />
-      <label for="darkModeTrigger">Dark<label>
+      <toggle-theme dark-color="rgba(0, 0, 0, 0.75)" light-color="rgba(255, 255, 255, 0.75)"/>
     </div>
   </nav>
   <header>
     <h1 class="site-title">
-      <span class="site-title_caps">mysterious</span>
+      <span class="site-title_caps">notes from</span>
       <span class="site-title_normal">Mahabharat</span>
     </h1>
     <!-- TODO: convert into a web-component-->
-    <input type="search" class="search-bar" />
+    <label for="">Search</label>
+    <input id="main-search-bar" type="search" class="search-bar" placeholder="Which story are you looking for?" />
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+    </svg>
   </header>
   <main>
     <div class="container">
@@ -87,11 +89,14 @@
     </div>
   </main>
   <footer>
-    <p>
-      &copy; 2023. All copyrights reserved with
-      <a href="https://amandogra.com/">Aman Dogra</a>
-    </p>
+    <div class="container">
+      <p class="copyright">
+        &copy; 2023. All copyrights reserved with
+        <a href="https://amandogra.com/">Aman Dogra</a>
+      </p>
+    </div>
   </footer>
+  <script type="module" src="./js/components/toggle-theme.js"></script>
 </body>
 
 </html>
