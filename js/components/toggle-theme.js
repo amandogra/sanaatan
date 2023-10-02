@@ -22,6 +22,7 @@ export default class ToggleThemeComponent extends HTMLElement {
         }
         #darkModeTrigger {
           appearance: none;
+          cursor: pointer;
           display: inline-block;
           width: 0.8rem;
           height: 0.8rem;
