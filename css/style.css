@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 :root {
-  --bg-primary: #fff;
+  --bg-primary: rgb(248, 247, 244);
   --bg-secondary: #f8f8f8;
+  --bg-topbar: antiquewhite;
+  --bg-translucent: rgba(0, 0, 0, 0.2);
   --color-primary: #000;
   --color-secondary: #777;
   --color-link: #eb5757;
+  --font-primary: 'Libre Baskerville', serif;
+  --font-stylized: 'Cinzel', serif;
   --stroke-primary: #1e1e1e;
   --stroke-secondary: #d3d3d5;
   --stroke-focus-color: rgb(252, 16, 7);
@@ -11,6 +16,8 @@
   .dark-theme {
     --bg-primary: #000;
     --bg-secondary: #282828;
+    --bg-topbar: rgb(34, 34, 34);
+    --bg-translucent: rgba(255, 255, 255, 0.2);
     --color-primary: #fff;
     --color-secondary: #444;
     --color-link: #eb5757;
@@ -21,12 +28,17 @@
 }
 html {
   font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background: var(--bg-primary);
   color: var(--color-primary);
+  font-family: var(--font-primary);
   font-size: 1rem;
+  margin: 0;
+  padding: 0;
 }
 /*RESET*/
 h1,
@@ -66,10 +78,11 @@ a {
 
 header {
   text-align: center;
-  padding: 6rem 1rem 8rem;
+  padding: 9rem 1rem 8rem;
   .site-title {
     .site-title_caps {
       display: block;
+      font-family: var(--font-stylized);
       font-size: 32px;
       font-weight: normal;
       letter-spacing: 11.84px;
@@ -88,6 +101,55 @@ header {
     margin-top: 2.5rem;
   }
 }
+header.title-block {
+  text-align: left;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid var(--stroke-primary);
+  margin-top: 3rem;
+}
+header.title-block .subtitle {
+  padding-top: 1rem;
+}
+@media (min-width: 42.722rem) {
+.wrapper {
+  display: grid;
+  grid-template-columns: 16rem 1fr ;
+}
+header.title-block {
+  text-align: right;
+}
+.toc {
+  margin-top:3rem;
+}
+}
+nav {
+  background: var(--bg-topbar);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  z-index: 1;
+}
+.nav-bar {
+  display: grid;
+  grid-template-columns: 6rem 1fr 1fr; 
+}
+.nav-bar__left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+main-logo {
+  padding: 0.5rem;
+}
+.opacity-on-scroll {
+  opacity: 0;
+}
+
 .canto-list {
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr; 
@@ -157,7 +219,7 @@ header {
   /* } */
 }
 footer {
-  margin-top: 4rem;
+  margin-top: 2rem;
   .container {
     border-top: 1px solid var(--stroke-secondary);
   }
@@ -165,4 +227,62 @@ footer {
     color: var(--color-secondary);
     padding: 1rem 0;
   }
+}
+
+/*
+ * ToC pages
+ */
+
+.toc {
+  padding: 2rem 1rem;
+}
+.toc a {
+  text-decoration: none;
+  :hover {
+    text-decoration: underline;
+  }
+}
+.toc ul {
+  list-style: none;
+}
+.toc .toc-part {
+}
+.toc .toc-part summary {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--stroke-secondary);
+}
+.toc .toc-part .toc-chapter summary {
+  margin-left: 1.4rem;
+}
+.toc .toc-part .toc-chapter .toc-topic {
+  padding: 0.5rem;
+  margin-left: 2.8rem;
+  border-bottom: 1px solid var(--stroke-secondary);
+}
+
+/*
+ * Paginator
+ */
+nav.paginator {
+  position: static;
+  background: transparent;
+}
+.paginator ul {
+  list-style: none;
+  margin:0;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 6rem 1fr 6rem; 
+}
+.paginator ul li a {
+  display: block;
+}
+.paginator ul li:first-child {
+  text-align: left;
+}
+.paginator ul li:nth-child(2) {
+  text-align: center;
+}
+.paginator ul li:last-child {
+  text-align: right;
 }

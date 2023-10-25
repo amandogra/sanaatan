@@ -28,7 +28,7 @@ export default class ToggleThemeComponent extends HTMLElement {
           height: 0.8rem;
           border: 1px solid ${this.darkColor};
           border-radius: 50%;
-          background: linear-gradient(90deg, ${this.lightColor} 50%, ${this.darkColor} 50%);;
+          background: linear-gradient(90deg, transparent 50%, ${this.darkColor} 50%);;
           padding: 0.02rem;
         }
         #darkModeTrigger:checked {

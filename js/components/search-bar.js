@@ -5,6 +5,8 @@ export default class SearchBarComponent extends HTMLElement {
     this.innerHTML = `
       <style>
         .search-bar {
+          max-width: 30rem;
+          margin: 0 auto;
           position: relative;
         }
         .search-bar input {
@@ -15,19 +17,17 @@ export default class SearchBarComponent extends HTMLElement {
           color: var(--color-primary);
           padding: 0.4rem 0.4rem 0.4rem 1.7rem;
           width: 100%;
-          max-width: 30rem;
           height: 2rem;
         }
         .search-bar__lens {
           fill: var(--color-secondary);
           position: absolute;
-          left: 16px;
+          left: 11px;
           top: 10px;
           width: 0.889rem;
           height: 0.889rem;
           display: block;
           color: white;
-          z-index: 1;
         }
 
       </style>

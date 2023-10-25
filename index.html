@@ -10,12 +10,17 @@
 
 <body>
   <nav>
-    <div class="container">
-      <toggle-theme dark-color="rgba(0, 0, 0, 0.75)" light-color="rgba(255, 255, 255, 0.75)"/>
+    <div class="container nav-bar">
+      <main-logo class="opacity-on-scroll"></main-logo>
+      <div class="nav-bar__spacer">&nbsp;</div>
+      <div class="nav-bar__left">
+        <search-trigger class="opacity-on-scroll"></search-trigger>
+        <toggle-theme dark-color="black" light-color="white" />
+      </div>
     </div>
   </nav>
   <header>
-    <h1 class="site-title">
+    <h1 id="siteTitle" class="site-title">
       <span class="site-title_caps">notes from</span>
       <span class="site-title_normal">Mahabharat</span>
     </h1>
@@ -27,7 +32,7 @@
       <ul class="canto-list">
         <!-- TODO: convert each item into a web-component-->
         <li class="canto-list_item">
-          <a href="mahabharat/canto01/toc.html" class="canto-list_item__link">
+          <a href="/canto/01/toc.html" class="canto-list_item__link">
             <p class="canto-list_item__link___number">01</p>
             <div class="canto-list_item__link___text">
               <h2>Adi Parv</h2>
@@ -36,7 +41,7 @@
           </a>
         </li>
         <li class="canto-list_item">
-          <a href="mahabharat/canto02/toc.html" class="canto-list_item__link">
+          <a href="/canto/02/toc.html" class="canto-list_item__link">
             <p class="canto-list_item__link___number">02</p>
             <div class="canto-list_item__link___text">
               <h2>Sabha Parv</h2>
@@ -91,8 +96,11 @@
       </p>
     </div>
   </footer>
+  <script type="module" src="./js/components/main-logo.js"></script>
   <script type="module" src="./js/components/toggle-theme.js"></script>
   <script type="module" src="./js/components/search-bar.js"></script>
+  <script type="module" src="./js/components/search-trigger.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
 </body>
 
 </html>
