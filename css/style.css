@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 :root {
   --bg-primary: rgb(248, 247, 244);
   --bg-secondary: #f8f8f8;
@@ -7,8 +7,8 @@
   --color-primary: #000;
   --color-secondary: #777;
   --color-link: #eb5757;
-  --font-primary: 'Libre Baskerville', serif;
-  --font-stylized: 'Cinzel', serif;
+  --font-primary: "Libre Baskerville", serif;
+  --font-stylized: "Cinzel", serif;
   --stroke-primary: #1e1e1e;
   --stroke-secondary: #d3d3d5;
   --stroke-focus-color: rgb(252, 16, 7);
@@ -110,17 +110,95 @@ header.title-block {
 header.title-block .subtitle {
   padding-top: 1rem;
 }
-@media (min-width: 42.722rem) {
+
 .wrapper {
   display: grid;
-  grid-template-columns: 16rem 1fr ;
+  grid-template-areas: 
+    "prev header next"
+    "prev main next";
+  }
+.wrapper .pagination-prev {
+  grid-area: prev;
 }
-header.title-block {
-  text-align: right;
+.wrapper main {
+  grid-area: main;
 }
+.wrapper .pagination-next {
+  grid-area: next;
+}
+
 .toc {
-  margin-top:3rem;
+  padding: 2rem 1rem;
 }
+.toc a {
+  text-decoration: none;
+  :hover {
+    text-decoration: underline;
+  }
+}
+.toc ul {
+  list-style: none;
+}
+.toc .toc-part {
+}
+.toc .toc-part summary {
+  padding: 0.5rem 0;
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--stroke-secondary);
+  position: sticky;
+  top: 3.2rem;
+  z-index: 2;
+}
+.toc .toc-part .toc-chapter summary {
+  margin-left: 1.4rem;
+  top: 5.5rem;
+  z-index: 1;
+}
+.toc .toc-part .toc-chapter .toc-topic {
+  padding: 0.5rem;
+  margin-left: 2.8rem;
+  border-bottom: 1px solid var(--stroke-secondary);
+}
+
+.pagination-next {
+  display: block;
+  text-align: left;
+  min-width: 1rem;
+}
+
+.pagination-prev {
+  display:block;
+  text-align: right;
+  min-width: 1rem;
+}
+
+@media (min-width: 42.722rem) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 11rem 25rem 1fr;
+    grid-template-areas: 
+      "prev header main next";
+  }
+  header.title-block {
+    border-bottom: 0 none;
+    text-align: right;
+    padding-left: 0;
+  }
+  header.title-block .title-block__content {
+    border-top: 1px solid var(--stroke-primary);
+    padding-top: 1rem;
+    position: sticky;
+    top: 6rem;
+  }
+  .toc {
+    margin-top: 3rem;
+    padding-right: 0;
+  }
+}
+@media (min-width: 64rem) {
+  .wrapper {
+    grid-template-columns: 1fr 16rem 38rem 1fr;
+  }
 }
 nav {
   background: var(--bg-topbar);
@@ -129,11 +207,11 @@ nav {
   left: 0;
   right: 0;
   bottom: auto;
-  z-index: 1;
+  z-index: 3;
 }
 .nav-bar {
   display: grid;
-  grid-template-columns: 6rem 1fr 1fr; 
+  grid-template-columns: 10rem 1fr 1fr;
 }
 .nav-bar__left {
   display: flex;
@@ -141,18 +219,18 @@ nav {
   justify-content: flex-end;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 main-logo {
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 .opacity-on-scroll {
   opacity: 0;
 }
 
 .canto-list {
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 4rem 1rem;
   /* display: flex; */
   /* column-gap: 1rem; */
@@ -193,7 +271,7 @@ main-logo {
 @media (max-width: 42.722rem) {
   /* Your CSS rules for small screens here */
   .canto-list {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
   /* .canto-list_item { */
   /*   max-width: 100%; */
@@ -203,16 +281,16 @@ main-logo {
 @media (min-width: 42.778rem) and (max-width: 54.944rem) {
   /* Your CSS rules for medium screens here */
   .canto-list {
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
   }
   /* .canto-list_item { */
   /*   max-width: 45%; */
   /* } */
 }
-@media (min-width: 55.000rem) {
+@media (min-width: 55rem) {
   /* Your CSS rules for large screens here */
   .canto-list {
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr;
   }
   /* .canto-list_item { */
   /*   max-width: 30%; */
@@ -225,64 +303,7 @@ footer {
   }
   .copyright {
     color: var(--color-secondary);
-    padding: 1rem 0;
+    padding: 1rem;
   }
 }
 
-/*
- * ToC pages
- */
-
-.toc {
-  padding: 2rem 1rem;
-}
-.toc a {
-  text-decoration: none;
-  :hover {
-    text-decoration: underline;
-  }
-}
-.toc ul {
-  list-style: none;
-}
-.toc .toc-part {
-}
-.toc .toc-part summary {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid var(--stroke-secondary);
-}
-.toc .toc-part .toc-chapter summary {
-  margin-left: 1.4rem;
-}
-.toc .toc-part .toc-chapter .toc-topic {
-  padding: 0.5rem;
-  margin-left: 2.8rem;
-  border-bottom: 1px solid var(--stroke-secondary);
-}
-
-/*
- * Paginator
- */
-nav.paginator {
-  position: static;
-  background: transparent;
-}
-.paginator ul {
-  list-style: none;
-  margin:0;
-  padding: 0.5rem;
-  display: grid;
-  grid-template-columns: 6rem 1fr 6rem; 
-}
-.paginator ul li a {
-  display: block;
-}
-.paginator ul li:first-child {
-  text-align: left;
-}
-.paginator ul li:nth-child(2) {
-  text-align: center;
-}
-.paginator ul li:last-child {
-  text-align: right;
-}
