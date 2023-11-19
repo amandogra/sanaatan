@@ -72,7 +72,7 @@ a {
 
 .container {
   margin: 0 auto;
-  max-width: 57rem;
+  max-width: calc(100% - 10%);
   width: 100%;
 }
 
@@ -113,10 +113,10 @@ header.title-block .subtitle {
 
 .wrapper {
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "prev header next"
     "prev main next";
-  }
+}
 .wrapper .pagination-prev {
   grid-area: prev;
 }
@@ -167,7 +167,7 @@ header.title-block .subtitle {
 }
 
 .pagination-prev {
-  display:block;
+  display: block;
   text-align: right;
   min-width: 1rem;
 }
@@ -176,8 +176,7 @@ header.title-block .subtitle {
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 11rem 25rem 1fr;
-    grid-template-areas: 
-      "prev header main next";
+    grid-template-areas: "prev header main next";
   }
   header.title-block {
     border-bottom: 0 none;
@@ -278,7 +277,7 @@ main-logo {
   /* } */
 }
 
-@media (min-width: 42.778rem) and (max-width: 54.944rem) {
+@media (min-width: 42.778rem) and (max-width: 64.944rem) {
   /* Your CSS rules for medium screens here */
   .canto-list {
     grid-template-columns: 1fr 1fr;
@@ -287,8 +286,11 @@ main-logo {
   /*   max-width: 45%; */
   /* } */
 }
-@media (min-width: 55rem) {
+@media (min-width: 65rem) {
   /* Your CSS rules for large screens here */
+  .container {
+      max-width: 57rem;
+  }
   .canto-list {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -306,4 +308,3 @@ footer {
     padding: 1rem;
   }
 }
-
