@@ -110,7 +110,17 @@ header.title-block {
 header.title-block .subtitle {
   padding-top: 1rem;
 }
-
+header.title-block .title-block__bookmark {
+  padding: 1rem 0;
+}
+header.title-block .title-block__bookmark li {
+  list-style: none;
+  font-family: var(--font-stylized);
+  padding: 0.15rem 0;
+}
+header.title-block .title-block__bookmark li a {
+  text-decoration: none;
+}
 .wrapper {
   display: grid;
   grid-template-areas:
@@ -160,6 +170,12 @@ header.title-block .subtitle {
   border-bottom: 1px solid var(--stroke-secondary);
 }
 
+.page-content {
+  padding: 2rem 1rem;
+}
+.page-content p {
+    padding-top: 1.4rem;
+  }
 .pagination-next {
   display: block;
   text-align: left;
@@ -189,7 +205,8 @@ header.title-block .subtitle {
     position: sticky;
     top: 6rem;
   }
-  .toc {
+  .toc,
+  .page-content {
     margin-top: 3rem;
     padding-right: 0;
   }
