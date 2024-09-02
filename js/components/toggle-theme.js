@@ -8,10 +8,10 @@ export default class ToggleThemeComponent extends HTMLElement {
     this.lightColor = this.getAttribute('light-color') || 'white';
     this.mediaDarkColorScheme = window.matchMedia('(prefers-color-scheme: dark)');
     this.userPreferredTheme = this.getLocalStorageUserPreferenceTheme();
-    this.attachShadow({ mode: 'open' });
-    this.shadowRoot.innerHTML = `
+    // this.attachShadow({ mode: 'open' });
+    this.innerHTML = `
       <style>
-        label {
+        /*label {
           clip: rect(0 0 0 0);
           clip-path: inset(50%);
           height: 1px;
@@ -19,7 +19,7 @@ export default class ToggleThemeComponent extends HTMLElement {
           position: absolute;
           white-space: nowrap;
           width: 1px;
-        }
+        }*/
         #darkModeTrigger {
           appearance: none;
           cursor: pointer;
@@ -39,7 +39,7 @@ export default class ToggleThemeComponent extends HTMLElement {
       <input type="checkbox" id="darkModeTrigger" name="darkModeTrigger" />
       <label for="darkModeTrigger" class="sr-only">Dark theme<label>
     `;
-    this.toggleTrigger = this.shadowRoot.querySelector('#darkModeTrigger');
+    this.toggleTrigger = this.querySelector('#darkModeTrigger');
   }
 
   connectedCallback() {
@@ -65,7 +65,7 @@ export default class ToggleThemeComponent extends HTMLElement {
       ? this.body.classList.add(this.darkThemeClassName)
       : this.body.classList.remove(this.darkThemeClassName);
     // Update the label of the checkbox for accessibility
-    this.shadowRoot.querySelector('label').innerText = isDarkOn ? 'Dark theme' : 'Light theme';
+    this.querySelector('label').innerText = isDarkOn ? 'Dark theme' : 'Light theme';
     this.toggleTrigger.checked = isDarkOn;
   }
 
